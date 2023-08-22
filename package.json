@@ -1,0 +1,16 @@
+{
+    "name":"api-stalo",
+    "version":"1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "php artisan serve",
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.8.0",
+        "vite": "^4.0.0"
+    }
+}
