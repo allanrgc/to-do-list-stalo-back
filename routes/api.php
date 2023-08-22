@@ -15,12 +15,9 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::delete("/task/{id}", [TaskController::class, 'deleteTask']);
 });
 
-
-Route::group(['middleware' => 'auth:api'], function () {
-    Route::post('/register', [UserController::class, 'createUser']);
-    Route::post('/login', [UserController::class, 'login']);
-    Route::post('/logout', [UserController::class, 'logout']);
-});
+Route::post('/register', [UserController::class, 'createUser']);
+Route::post('/login', [UserController::class, 'login']);
+Route::post('/logout', [UserController::class, 'logout']);
 
 // Route::middleware('auth:api')->group( function () {
 //     Route::get('/user', [UserController::class, 'getUser']);
