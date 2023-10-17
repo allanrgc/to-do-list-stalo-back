@@ -25,13 +25,13 @@ Certifique-se de ter os seguintes pré-requisitos instalados em seu ambiente:
 1. Clone este repositório em seu ambiente:
 
    ```bash
-   git clone https://github.com/seu-usuario/todo-list-backend.git
+   git clone https://github.com/allanrgc/to-do-list-stalo-back
    ```
 
 2. Acesse o diretório do projeto:
 
     ```bash
-    cd todo-list-backend
+    cd todo-list-stalo-back
     ```
 
 3. Instale as dependências do Composer:
@@ -77,7 +77,6 @@ Certifique-se de ter os seguintes pré-requisitos instalados em seu ambiente:
 ### Tarefa
 
 - **GET**: Obter Todas as Tarefas
-- **GET**: Obter Todas as Tarefas (Cópia)
 - **GET**: Obter Tarefa por ID
 - **POST**: Adicionar Tarefa
 - **PUT**: Atualizar Tarefa por ID
